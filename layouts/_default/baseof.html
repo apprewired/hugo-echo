@@ -5,10 +5,14 @@
   <title>{{ block "title" . }}
     {{ .Site.Title }}
   {{ end }}</title>
-  {{ $css := resources.Get "/css/index.css" | fingerprint "md5" }}
 
-  <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" />
   <style>
+    html {
+      font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    }
+    body, h1 {
+      margin: 0;
+    }
     .nav-gray {
       background-color: rgb(248 250 252);
     }
@@ -228,6 +232,12 @@
       .h1-headline {
         display: inline;
       }
+    }
+    *, ::before, ::after {
+      box-sizing: border-box;
+      border-width: 0px;
+      border-style: solid;
+      border-color: #e5e7eb;
     }
     
 
