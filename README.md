@@ -1,6 +1,6 @@
-# Hugo-Hawkeye
+# Hugo-echo
 
-Hugo-hawkeye is a shell hugo site with some basic layouts used in setting up a hugo site from scratch.
+Hugo-echo is a shell hugo site with a basic 'hero banner' layout used in setting up a hugo site from scratch.
 
 Hero Image Credit to:
 
